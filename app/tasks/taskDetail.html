@@ -1,0 +1,23 @@
+<div *ngIf="task">
+    <div class="collection with-header" id="task-detail">
+<!--       <div class="collection-header">-->
+       <h4 class="center-align collection-header" id="task-detail-heading">{{ task.title }}</h4>
+       <div class="collection-item row">
+          <div class="col s6 center-align">
+              <label>Due Date: </label>
+              <p>{{ task.due }}</p>
+          </div>
+          <div class="col s6 center-align">
+              <label>Importance</label>
+              <i class="material-icons right yellow-text">grade</i>
+          </div>
+       </div>
+       <div class="collection-item center-align">
+           {{ task.description }}
+       </div>
+    </div>
+    <div class="center-align" id="task-btn">
+        <a class="waves-effect btn"><i class="material-icons left">edit</i>Edit</a>
+        <a class="waves-effect btn"><i class="material-icons left">save</i>Save</a>
+    </div>  
+</div>

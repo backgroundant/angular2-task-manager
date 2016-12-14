@@ -1,0 +1,23 @@
+<nav>
+    <div class="nav-wrapper" id="nav-back">
+      <a routerLink="/welcome" class="brand-logo center"><i class="material-icons md-36">today</i>Clero</a>
+      <div class="left">
+          <a (click)="goBack()"><i class="material-icons md-48">arrow_back</i></a>
+      </div>
+    </div>
+</nav>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+
+
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+        © 2016 Copyright Yuan Zhang
+        <a class="grey-text text-lighten-4 right" href="#!">Clero Task Manager</a>
+        </div>
+    </div>
+</footer>
+

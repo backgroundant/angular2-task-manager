@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  } 
+
+label {
+    font-size: 16px;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+#welcome-title {
+    font-size: 32px;
+    color: darkorange;
+}
+
+#task-list-header {
+    color: #2AB9AB;
+    font-size:3em;
+}
+
+#task-list {
+    margin-bottom: 100px;
+}
+
+#task-detail {
+    margin-top: 70px;    
+}
+
+#importance-mark {
+    color: lightgrey;
+}
+
+h4 {
+    font-size: 20px;
+    color: grey;
+}
+
+#task-detail-heading {
+    color: #2AB9AB;
+    font-size: 2.5em;
+}
+
+#new-task-heading {
+    margin-top:60px;
+    margin-bottom:30px;
+}
+
+#nav-back {
+    background-color: darkorange;
+}
+
+#help-btn {
+    margin-top:10px;
+}
+#help {
+    color: white;
+}
+#nav-btn {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+#nav-btn > a {
+    padding-right:20px;
+    padding-left:20px;
+}
+
+#task-btn {
+    margin-top:30px;
+    margin-bottom:100px;
+}
+
+#task-change-btn {
+    margin-top: 30px;
+}
+
+#search-bar {
+    width:100px;
+}
+
+footer.page-footer{
+    margin-top:0;
+    padding-top:0;    
+    background-color: darkorange;
+}
